@@ -1,19 +1,9 @@
 import { Profile } from 'components/Profile/Profile';
 import user from 'components/Profile/user.json';
-import { Container } from 'components/Profile.styled';
-// import user from '../components/Profile/user.json';
+import { Container } from 'components/Profile/Profile.styled';
 export const App = () => {
   return (
-    <Container
-    // style={{
-    //   height: '100vh',
-    //   display: 'flex',
-    //   justifyContent: 'center',
-    //   alignItems: 'center',
-    //   fontSize: 40,
-    //   color: '#010101'
-    // }}
-    >
+    <Container>
       <Profile
         username={user.username}
         tag={user.tag}

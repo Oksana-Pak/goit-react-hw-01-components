@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background-color: #d5dce6;
+  padding-top: 20px;
+  padding-bottom: 20px;
 `;
 export const ProfileContainer = styled.div`
   width: 30%;
