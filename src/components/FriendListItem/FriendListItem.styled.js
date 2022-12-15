@@ -17,7 +17,9 @@ export const FriendStatus = styled.span`
   border-radius: 50%;
   background-color: ${p => (p.isOnline ? 'green' : 'red')};
 `;
-export const FriendAvatar = styled.img``;
+export const FriendAvatar = styled.img`
+  display: block;
+`;
 export const FriendName = styled.p`
   font-size: 24px;
   font-weight: bold;

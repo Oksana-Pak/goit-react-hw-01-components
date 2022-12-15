@@ -33,7 +33,9 @@ export const StatsItem = styled.li`
   background-color: ${() =>
     `#${Math.floor(Math.random() * 16777215).toString(16)}`};
 `;
-export const StatsLabel = styled.span``;
+export const StatsLabel = styled.span`
+  font-size: 18px;
+`;
 export const StatsPercentage = styled.span`
   margin-top: 10px;
   font-size: 20px;
