@@ -6,12 +6,11 @@ export const Container = styled.div`
   padding-bottom: 20px;
 `;
 export const ProfileContainer = styled.div`
-  width: 30%;
+  width: 25%;
   margin: 0 auto;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
   text-align: center;
 `;
 export const Description = styled.div`
@@ -54,7 +53,7 @@ export const Stats = styled.ul`
 export const StatsItem = styled.li`
   display: flex;
   flex-direction: column;
-  width: 33.33%;
+  width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
   border-right: 1px solid #d5dce6;
